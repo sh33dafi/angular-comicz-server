@@ -1,0 +1,17 @@
+{
+  "name": "angular-comicz-server",
+  "version": "1.0.0",
+  "description": "API server for angular-comicz",
+  "main": "main.js",
+  "repository": "git@github.com:sh33dafi/angular-comicz-server.git",
+  "author": "Yannick Houbrix",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node main"
+  },
+  "dependencies": {
+    "restify": "^8.2.0",
+    "restify-cors-middleware": "^1.1.1"
+  }
+}
